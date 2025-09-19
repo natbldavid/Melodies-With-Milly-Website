@@ -1,0 +1,11 @@
+/* Keep this file for any small non-Tailwind tweaks you want later. */
+
+/* Example: if you ever want a smoother shadow/border on the card */
+.milly-card {
+  /* empty for now; Tailwind handles styles */
+}
+
+/* Example: nudge image slightly on very wide screens (optional) */
+/* @media (min-width: 1280px) {
+  .milly-photo { transform: translateX(-50%) translateY(-2%); }
+} */
