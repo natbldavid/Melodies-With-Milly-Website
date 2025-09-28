@@ -1,16 +1,13 @@
+// src/components/maincontent/homescreen/homescreen.jsx
 import "./homescreen.css";
 import HomeScreenHeader from "./homescreenheader.jsx";
 
-export default function HomeScreen() {
+export default function HomeScreen({ id = "home" }) {
   return (
-    <div className="homescreen">
+    <section id={id} className="section homescreen">
       {/* HERO / HEADER SECTION */}
       <HomeScreenHeader />
-
-      {/* Future sections of the home page can be added here as separate components */}
-      {/* <HomeScreenOpener /> */}
-      {/* <HomeFeatures /> */}
-      {/* <HomeTestimonialsPreview /> */}
-    </div>
+      {/* Add more home sub-sections here later if you like */}
+    </section>
   );
 }

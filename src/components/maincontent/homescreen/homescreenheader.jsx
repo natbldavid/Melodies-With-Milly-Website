@@ -1,8 +1,5 @@
-import { Link } from "react-router-dom";
 import "./homescreenheader.css";
-import millyImg from "../../../assets/millytransparent2.png";
-
-/* ⬇️ Add these */
+import millyImg from "../../../assets/mwmtransparenthome.png";
 import { FaStar, FaHeart } from "react-icons/fa";
 import { HiOutlineSparkles } from "react-icons/hi2";
 import { PiStarFourFill } from "react-icons/pi";
@@ -14,9 +11,9 @@ export default function HomeScreenHeader() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* LEFT: Text block */}
           <div>
-            <p className="text-sm md:text-base font-medium opacity-80 mb-3">Hey, I&apos;m Milly</p>
+            <p className="text-sm md:text-base font-medium opacity-80 mb-3">Welcome to <span className="font-more text-[#95B3EA]">Melodies With Milly</span></p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-relaxed">
-              I provide <span className="text-pink-600">princess parties</span> in
+              We host <span className="text-pink-600">princess parties</span> in
               London, Surrey &amp; Hampshire
             </h1>
             <p className="mt-4 text-base sm:text-lg">
@@ -26,12 +23,12 @@ export default function HomeScreenHeader() {
               memorable visits.
             </p>
             <div className="mt-6">
-              <Link
-                to="/contact"
-                className="inline-flex items-center justify-center rounded-full px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white font-medium focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2"
+              <a
+              href="#contact"
+          className="inline-flex items-center justify-center rounded-full px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white font-medium focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2"
               >
                 Enquire Now
-              </Link>
+              </a>
             </div>
           </div>
 
